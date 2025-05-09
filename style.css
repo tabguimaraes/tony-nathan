@@ -110,7 +110,7 @@ section {
   align-items: center;
 }
 
-.pizza {
+.produto {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -123,7 +123,7 @@ section {
   height: 100%;
 }
 
-.add-pizza {
+.add-produto {
   position: absolute;
   top: -16px;
   right: -16px;
@@ -141,7 +141,7 @@ section {
   z-index: 9;
 }
 
-.pizza:hover .add-pizza {
+.produto:hover .add-produto {
   opacity: 1;
   cursor: pointer;
 }
@@ -173,7 +173,7 @@ section {
   color: white;
 }
 
-.pizza:hover .container-info {
+.produto:hover .container-info {
   bottom: 0;
 }
 
@@ -220,4 +220,35 @@ a {
   justify-content: space-evenly;
   height: 250px;
   border-bottom: 2px solid var(--primary-color);
+}
+
+.cardapio-item:last-child {
+  border-bottom: none;
+}
+
+.bebida {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.bebida:hover {
+  box-shadow: 0 0 16px #000;
+}
+
+.bebida p {
+  width: 100%;
+}
+
+.preco {
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.descricao {
+  font-size: 0.5rem;
 }
