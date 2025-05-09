@@ -104,7 +104,7 @@ section {
   color: var(--primary-color);
 }
 
-.container-pizzas {
+.container-produtos {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -178,7 +178,7 @@ section {
 }
 
 .cardapio {
-  background-color: plum;
+  background-color: white;
 }
 
 .servicos {
@@ -188,4 +188,36 @@ section {
 footer {
   background-color: pink;
   height: 526px;
+}
+
+.section-title {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.section-title h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.item-text {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-color);
+}
+
+.item-text h4,
+a {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.cardapio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 250px;
+  border-bottom: 2px solid var(--primary-color);
 }
