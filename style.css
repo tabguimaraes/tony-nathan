@@ -28,17 +28,17 @@ body {
 }
 
 header {
-  height: 60px;
+  height: 80px;
   position: fixed;
   width: 100vw;
-  top: 60px;
+  /* top: 60px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--default-padding);
   z-index: 100;
-  backdrop-filter: blur(2px);
-  background-color: rgba(247, 229, 216, 0.8);
+  /* backdrop-filter: blur(2px); */
+  background-color: var(--secundary-color);
 }
 
 header menu {
@@ -70,6 +70,17 @@ header li:hover {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.login:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.login:active {
+  transform: scale(0.9);
 }
 
 section {
@@ -79,7 +90,7 @@ section {
 
 .home {
   background-color: var(--secundary-color);
-  background-image: url(./img/background-home.svg);
+  background-image: url("./img/background.svg");
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
