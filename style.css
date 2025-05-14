@@ -1,6 +1,6 @@
 :root {
   --primary-color: #f07807;
-  --secundary-color: #f7e5d8;
+  --secondary-color: #f7e5d8;
   --default-shadow: 0 4px 8px #0008;
   --default-padding: 0 80px;
 }
@@ -24,7 +24,7 @@ li {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
 }
 
 header {
@@ -38,7 +38,7 @@ header {
   padding: var(--default-padding);
   z-index: 100;
   /* backdrop-filter: blur(2px); */
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   background-image: url("./img/background.svg");
   background-repeat: no-repeat;
   background-position: 50vw 0vh;
@@ -59,7 +59,7 @@ header li {
 }
 
 header li:hover {
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   box-shadow: var(--default-shadow);
 }
 
@@ -68,7 +68,7 @@ header li:hover {
   width: 120px;
   border-radius: 12px;
   border: none;
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   box-shadow: var(--default-shadow);
   display: flex;
   align-items: center;
@@ -93,7 +93,7 @@ section {
 }
 
 .home {
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   background-image: url("./img/background.svg");
   background-repeat: no-repeat;
   background-position: 49.97vw 0vh;
