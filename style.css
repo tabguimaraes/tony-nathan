@@ -39,6 +39,10 @@ header {
   z-index: 100;
   /* backdrop-filter: blur(2px); */
   background-color: var(--secundary-color);
+  background-image: url("./img/background.svg");
+  background-repeat: no-repeat;
+  background-position: 50vw 0vh;
+  /* background-size: contain; */
 }
 
 header menu {
@@ -92,7 +96,7 @@ section {
   background-color: var(--secundary-color);
   background-image: url("./img/background.svg");
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: 49.97vw 0vh;
   background-size: contain;
   display: grid;
   grid-template-rows: 3fr 1fr;
