@@ -204,8 +204,12 @@ section {
 }
 
 footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: pink;
   height: 526px;
+  width: 100%;
 }
 
 .section-title {
@@ -307,4 +311,36 @@ a {
 .servico-item p {
   text-align: center;
   text-shadow: var(--default-shadow);
+}
+
+.contatos-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.contato li {
+  display: flex;
+
+  gap: 20px;
+  align-items: center;
+  /* margin: 20px; */
+}
+
+.contato {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.social-item {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.fa-brands {
+  font-size: 2rem;
+  color: var(--secondary-color);
 }
